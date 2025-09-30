@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.33.1",
     "@prisma/client": "^6.16.3",
     "next": "15.5.4",
     "react": "19.1.0",
