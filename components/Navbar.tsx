@@ -33,8 +33,8 @@ export default function Navbar() {
                 </span>
               </div>
               <span className='text-sm sm:text-base md:text-lg lg:text-xl font-bold bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 bg-clip-text text-transparent'>
-                <span className='hidden sm:inline'>ExpenseTracker AI</span>
-                <span className='sm:hidden'>ExpenseTracker</span>
+                <span className='hidden sm:inline'>PocketPilot AI</span>
+                <span className='sm:hidden'>PocketPilot</span>
               </span>
             </Link>
           </div>
@@ -69,9 +69,9 @@ export default function Navbar() {
           {/* Right Section */}
           <div className='flex items-center space-x-1 sm:space-x-2'>
             {/* Theme Toggle */}
-            <div className='p-0.5 sm:p-1'>
+            {/* <div className='p-0.5 sm:p-1'>
               <ThemeToggle />
-            </div>
+            </div> */}
 
             {/* Authentication - Desktop */}
             <div className='hidden sm:block'>
