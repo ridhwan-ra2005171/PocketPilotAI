@@ -33,5 +33,6 @@ model Expense{
   date DateTime @default(now())
   userId String
   user User @relation(fields: [userId], references: [clerkUserId], onDelete: Cascade)
+  createdAt DateTime @default(now())
   @@index([userId])
 }
