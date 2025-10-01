@@ -1,6 +1,11 @@
 import React from "react";
 import { currentUser } from "@clerk/nextjs/server";
 import Guest from "../../components/Guest";
+import AddNewRecord from "../../components/AddNewRecord";
+import RecordChart from "../../components/RecordChart";
+import ExpenseStats from "../../components/ExpenseStats";
+import AIInsights from "../../components/AIInsights";
+import RecordHistory from "../../components/RecordHistory";
 //this is the homepage, will be used for the landing page
 //async bc itll be in server side
 export default async function HomePage() {
@@ -80,18 +85,21 @@ export default async function HomePage() {
               </div>
             </div>
             {/* Add New Expense */}
+            <AddNewRecord/>
           </div>
 
           {/* Right Column - Stacked below on mobile */}
           <div className="space-y-4 sm:space-y-6">
             {/* Expense Analytics */}
-           
+            <RecordChart/>
+            <ExpenseStats/>
           </div>
         </div>
 
         {/* Full-width sections below - mobile-friendly spacing */}
         <div className="mt-6 sm:mt-8 space-y-4 sm:space-y-6">
-          
+          <AIInsights/>
+          <RecordHistory/>
         </div>
       </div>
     </main>
