@@ -68,7 +68,7 @@ export async function generateExpenseInsights(
     Return only valid JSON array, no additional text.`;
 
     const completion = await openai.chat.completions.create({
-      model: 'deepseek/deepseek-chat-v3-0324:free',
+      model: 'x-ai/grok-4-fast:free',
       messages: [
         {
           role: 'system',
@@ -138,14 +138,14 @@ export async function generateExpenseInsights(
 export async function categorizeExpense(description: string): Promise<string> {
   try {
     const completion = await openai.chat.completions.create({
-      model: 'deepseek/deepseek-chat-v3-0324:free',
+      model: 'x-ai/grok-4-fast:free',
       messages: [
         {
           role: 'system',
           content:
-            'You are an expense categorization AI. Categorize expenses into one of these categories: Food, Transportation, Entertainment, Shopping, Bills, Healthcare, Other. Respond with only the category name.',
+          'You are an intelligent expense categorization AI. Categorize the given expense description into one of the following categories: Food, Transportation, Entertainment, Shopping, Bills, Healthcare, or Other. Use your knowledge of common products, services, and terminology to assign the most appropriate category. For example, "Doner" and "Tomatoes" should be categorized as Food; "Train ticket" as Transportation; "Movie night" as Entertainment; "Prescription medicine" as Healthcare; "Electricity bill" as Bills; "T-shirt from H&M" and "Jacket" as Shopping. If the expense does not clearly fit any of these categories, return Other. Respond with only the category name and nothing else.'
         },
-        {
+        {   
           role: 'user',
           content: `Categorize this expense: "${description}"`,
         },
@@ -202,7 +202,7 @@ export async function generateAIAnswer(
     Return only the answer text, no additional formatting.`;
 
     const completion = await openai.chat.completions.create({
-      model: 'deepseek/deepseek-chat-v3-0324:free',
+      model: 'x-ai/grok-4-fast:free',
       messages: [
         {
           role: 'system',
