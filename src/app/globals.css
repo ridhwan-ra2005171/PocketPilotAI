@@ -1,5 +1,29 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #166534;    /* Forest green, softer than original */
+  --color-muted: #e5e5e5;      /* Light gray for subtle elements */
+  --color-tertiary: #94a3b8;   /* Slate blue-gray, Notion-like */
+  --color-surface: #ffffff;    /* Pure white for surfaces */
+  --color-accent: #64748b;     /* Grayscale accent with bluish tint */
+  --color-secondary: #dcfce7;  /* Very light green for highlights */
+  --color-content: #0f172a;    /* Almost black, but softer */
+  --color-background: #f8fafc; /* Off-white background, Notion-like */
+}
+
+.dark {
+  --color-primary: #4ade80;    /* Brighter green for dark mode */
+  --color-muted: #334155;      /* Muted slate color */
+  --color-tertiary: #64748b;   /* Medium gray with blue tint */
+  --color-surface: #1e293b;    /* Dark blue-gray for surfaces */
+  --color-accent: #94a3b8;     /* Medium-light gray accent */
+  --color-secondary: #064e3b;  /* Dark teal-green */
+  --color-content: #f1f5f9;    /* Off-white text */
+  --color-background: #0f172a; /* Very dark blue-gray background */
+}
+/* 
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -23,4 +47,4 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */

@@ -70,9 +70,9 @@ export default function Navbar() {
           {/* Right Section */}
           <div className='flex items-center space-x-1 sm:space-x-2'>
             {/* Theme Toggle */}
-            {/* <div className='p-0.5 sm:p-1'>
+            <div className='p-0.5 sm:p-1'>
               <ThemeToggle />
-            </div> */}
+            </div>
 
             {/* Authentication - Desktop */}
             <div className='hidden sm:block'>
