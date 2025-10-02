@@ -18,7 +18,7 @@ export default function ClerkThemeProvider({
       appearance={{
         baseTheme: theme === 'dark' ? dark : undefined,
         variables: {
-          colorPrimary: theme === 'dark' ? '#10b981' : '#059669', // emerald-500/600
+          colorPrimary: theme === 'dark' ? '#10b981' : '#059669', // blue-500/600
           colorBackground: theme === 'dark' ? '#1f2937' : '#ffffff',
           colorInputBackground: theme === 'dark' ? '#374151' : '#f9fafb',
           colorInputText: theme === 'dark' ? '#f3f4f6' : '#1f2937',

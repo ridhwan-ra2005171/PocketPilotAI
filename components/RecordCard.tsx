@@ -36,7 +36,7 @@ const RecordCard = ({ record }: { record: Record }) => {
   const getBorderColor = (amount: number) => {
     if (amount > 100) return 'border-red-500'; // High expense
     if (amount > 50) return 'border-yellow-500'; // Medium expense
-    return 'border-green-500'; // Low expense
+    return 'border-sky-500'; // Low expense
   };
 
   return (

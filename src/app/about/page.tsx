@@ -2,19 +2,19 @@ import Link from "next/link";
 
 const AboutPage = () => {
   return (
-    <div className="font-sans bg-gradient-to-br from-gray-50 via-white to-emerald-50 dark:from-gray-900 dark:via-gray-800 dark:to-emerald-900/20 text-gray-800 dark:text-gray-200 transition-all duration-300 min-h-screen">
+    <div className="font-sans bg-gradient-to-br from-gray-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-blue-900/20 text-gray-800 dark:text-gray-200 transition-all duration-300 min-h-screen">
       {/* Hero Section */}
-      <section className="relative overflow-hidden flex flex-col items-center justify-center text-center py-16 sm:py-20 md:py-24 px-4 sm:px-6 md:px-8 bg-gradient-to-br from-emerald-500/10 via-green-500/5 to-teal-500/10 dark:from-emerald-900/30 dark:via-green-900/20 dark:to-teal-900/30">
+      <section className="relative overflow-hidden flex flex-col items-center justify-center text-center py-16 sm:py-20 md:py-24 px-4 sm:px-6 md:px-8 bg-gradient-to-br from-blue-500/10 via-sky-500/5 to-cyan-500/10 dark:from-blue-900/30 dark:via-sky-900/20 dark:to-cyan-900/30">
         <div className="absolute inset-0 bg-grid-pattern opacity-5 dark:opacity-10"></div>
         <div className="relative z-10 max-w-4xl mx-auto w-full">
-          <div className="inline-flex items-center gap-2 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-medium mb-4 sm:mb-6 shadow-lg">
-            <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-emerald-500 dark:bg-emerald-400 rounded-full animate-pulse"></span>
+          <div className="inline-flex items-center gap-2 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-medium mb-4 sm:mb-6 shadow-lg">
+            <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-blue-500 dark:bg-blue-400 rounded-full animate-pulse"></span>
             <span className="hidden sm:inline">With AI Assistance</span>
             <span className="sm:hidden">AI Technology</span>
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 text-gray-900 dark:text-gray-100 leading-tight">
             About{" "}
-            <span className="bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-600 via-sky-500 to-cyan-500 bg-clip-text text-transparent">
               PocketPilot AI
             </span>
           </h1>
@@ -25,14 +25,14 @@ const AboutPage = () => {
           <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-2 sm:px-0">
             <Link
               href="/sign-up"
-              className="group relative overflow-hidden bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 hover:from-emerald-700 hover:via-green-600 hover:to-teal-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold shadow-2xl hover:shadow-3xl transition-all duration-200 transform hover:-translate-y-0.5"
+              className="group relative overflow-hidden bg-gradient-to-r from-blue-600 via-sky-500 to-cyan-500 hover:from-blue-700 hover:via-sky-600 hover:to-cyan-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold shadow-2xl hover:shadow-3xl transition-all duration-200 transform hover:-translate-y-0.5"
             >
               <span className="relative z-10">Start Exploring</span>
               <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
             </Link>
             <Link
               href="/contact"
-              className="group border-2 border-emerald-500/20 dark:border-emerald-400/20 text-emerald-600 dark:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-900/20 px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold transition-all duration-200 backdrop-blur-sm"
+              className="group border-2 border-blue-500/20 dark:border-blue-400/20 text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold transition-all duration-200 backdrop-blur-sm"
             >
               Learn More
             </Link>
@@ -42,15 +42,15 @@ const AboutPage = () => {
 
       {/* Mission Section */}
       <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm relative overflow-hidden">
-        <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-500 via-green-500 to-teal-500"></div>
+        <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 via-sky-500 to-cyan-500"></div>
         <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 px-3 py-1 rounded-full text-xs sm:text-sm font-medium mb-4 sm:mb-6">
-            <span className="w-1.5 h-1.5 bg-emerald-500 dark:bg-emerald-400 rounded-full"></span>
+          <div className="inline-flex items-center gap-2 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 px-3 py-1 rounded-full text-xs sm:text-sm font-medium mb-4 sm:mb-6">
+            <span className="w-1.5 h-1.5 bg-blue-500 dark:bg-blue-400 rounded-full"></span>
             Our Mission
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8 text-gray-900 dark:text-gray-100 px-2 sm:px-0">
             Efficient Financial Management with{" "}
-            <span className="text-emerald-600 dark:text-emerald-400">AI</span>
+            <span className="text-blue-600 dark:text-blue-400">AI</span>
           </h2>
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl mx-auto">
             At PocketPilot AI, we harness state-of-the-art artificial
@@ -60,24 +60,24 @@ const AboutPage = () => {
             smarter and move closer to financial freedom.
           </p>
           <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-gradient-to-br from-emerald-50 to-green-50 dark:from-emerald-900/20 dark:to-green-900/20 p-6 rounded-2xl border border-emerald-100 dark:border-emerald-800/50">
-              <div className="text-3xl font-bold text-emerald-600 dark:text-emerald-400 mb-2">
+            <div className="bg-gradient-to-br from-blue-50 to-sky-50 dark:from-blue-900/20 dark:to-sky-900/20 p-6 rounded-2xl border border-blue-100 dark:border-blue-800/50">
+              <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">
                 10K+
               </div>
               <div className="text-gray-600 dark:text-gray-400 font-medium">
                 Active Users
               </div>
             </div>
-            <div className="bg-gradient-to-br from-green-50 to-teal-50 dark:from-green-900/20 dark:to-teal-900/20 p-6 rounded-2xl border border-green-100 dark:border-green-800/50">
-              <div className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">
+            <div className="bg-gradient-to-br from-sky-50 to-cyan-50 dark:from-sky-900/20 dark:to-cyan-900/20 p-6 rounded-2xl border border-sky-100 dark:border-sky-800/50">
+              <div className="text-3xl font-bold text-sky-600 dark:text-sky-400 mb-2">
                 $2M+
               </div>
               <div className="text-gray-600 dark:text-gray-400 font-medium">
                 Money Tracked
               </div>
             </div>
-            <div className="bg-gradient-to-br from-teal-50 to-emerald-50 dark:from-teal-900/20 dark:to-emerald-900/20 p-6 rounded-2xl border border-teal-100 dark:border-teal-800/50">
-              <div className="text-3xl font-bold text-teal-600 dark:text-teal-400 mb-2">
+            <div className="bg-gradient-to-br from-cyan-50 to-blue-50 dark:from-cyan-900/20 dark:to-blue-900/20 p-6 rounded-2xl border border-cyan-100 dark:border-cyan-800/50">
+              <div className="text-3xl font-bold text-cyan-600 dark:text-cyan-400 mb-2">
                 99%
               </div>
               <div className="text-gray-600 dark:text-gray-400 font-medium">
@@ -89,16 +89,16 @@ const AboutPage = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 px-8 bg-gradient-to-br from-gray-50 via-white to-emerald-50 dark:from-gray-900 dark:via-gray-800 dark:to-emerald-900/20">
+      <section className="py-20 px-8 bg-gradient-to-br from-gray-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-blue-900/20">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 px-3 py-1 rounded-full text-sm font-medium mb-6">
-              <span className="w-1.5 h-1.5 bg-emerald-500 dark:bg-emerald-400 rounded-full"></span>
+            <div className="inline-flex items-center gap-2 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 px-3 py-1 rounded-full text-sm font-medium mb-6">
+              <span className="w-1.5 h-1.5 bg-blue-500 dark:bg-blue-400 rounded-full"></span>
               Features
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-gray-100">
               Why Choose{" "}
-              <span className="text-emerald-600 dark:text-emerald-400">
+              <span className="text-blue-600 dark:text-blue-400">
                 PocketPilot AI?
               </span>
             </h2>
@@ -110,9 +110,9 @@ const AboutPage = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="group relative bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm p-8 rounded-2xl shadow-xl border border-gray-100/50 dark:border-gray-700/50 hover:shadow-2xl transition-all duration-200 hover:-translate-y-1">
-              <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/5 to-green-500/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-sky-500/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
               <div className="relative z-10">
-                <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 via-green-500 to-teal-500 rounded-xl flex items-center justify-center shadow-lg mb-6">
+                <div className="w-12 h-12 bg-gradient-to-br from-blue-500 via-sky-500 to-cyan-500 rounded-xl flex items-center justify-center shadow-lg mb-6">
                   <span className="text-white text-xl">🤖</span>
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-gray-100">
@@ -127,9 +127,9 @@ const AboutPage = () => {
             </div>
 
             <div className="group relative bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm p-8 rounded-2xl shadow-xl border border-gray-100/50 dark:border-gray-700/50 hover:shadow-2xl transition-all duration-200 hover:-translate-y-1">
-              <div className="absolute inset-0 bg-gradient-to-br from-green-500/5 to-teal-500/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-sky-500/5 to-cyan-500/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
               <div className="relative z-10">
-                <div className="w-12 h-12 bg-gradient-to-br from-green-500 via-teal-500 to-emerald-500 rounded-xl flex items-center justify-center shadow-lg mb-6">
+                <div className="w-12 h-12 bg-gradient-to-br from-sky-500 via-cyan-500 to-blue-500 rounded-xl flex items-center justify-center shadow-lg mb-6">
                   <span className="text-white text-xl">✨</span>
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-gray-100">
@@ -144,9 +144,9 @@ const AboutPage = () => {
             </div>
 
             <div className="group relative bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm p-8 rounded-2xl shadow-xl border border-gray-100/50 dark:border-gray-700/50 hover:shadow-2xl transition-all duration-200 hover:-translate-y-1">
-              <div className="absolute inset-0 bg-gradient-to-br from-teal-500/5 to-emerald-500/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-blue-500/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
               <div className="relative z-10">
-                <div className="w-12 h-12 bg-gradient-to-br from-teal-500 via-emerald-500 to-green-500 rounded-xl flex items-center justify-center shadow-lg mb-6">
+                <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 via-blue-500 to-sky-500 rounded-xl flex items-center justify-center shadow-lg mb-6">
                   <span className="text-white text-xl">📊</span>
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-gray-100">
@@ -165,18 +165,18 @@ const AboutPage = () => {
 
       {/* Story Section */}
       <section className="py-20 px-8 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-emerald-500/5 to-green-500/5 rounded-full blur-2xl"></div>
-        <div className="absolute bottom-0 left-0 w-64 h-64 bg-gradient-to-br from-teal-500/5 to-emerald-500/5 rounded-full blur-2xl"></div>
+        <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-blue-500/5 to-sky-500/5 rounded-full blur-2xl"></div>
+        <div className="absolute bottom-0 left-0 w-64 h-64 bg-gradient-to-br from-cyan-500/5 to-blue-500/5 rounded-full blur-2xl"></div>
 
         <div className="max-w-4xl mx-auto relative z-10">
           <div className="text-center mb-12">
-            <div className="inline-flex items-center gap-2 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 px-3 py-1 rounded-full text-sm font-medium mb-6">
-              <span className="w-1.5 h-1.5 bg-emerald-500 dark:bg-emerald-400 rounded-full"></span>
+            <div className="inline-flex items-center gap-2 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 px-3 py-1 rounded-full text-sm font-medium mb-6">
+              <span className="w-1.5 h-1.5 bg-blue-500 dark:bg-blue-400 rounded-full"></span>
               Our Story
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-8 text-gray-900 dark:text-gray-100">
               Built for the{" "}
-              <span className="text-emerald-600 dark:text-emerald-400">
+              <span className="text-blue-600 dark:text-blue-400">
                 Future
               </span>
             </h2>
@@ -199,9 +199,9 @@ const AboutPage = () => {
               </p>
               <div className="flex items-center gap-4 pt-4">
                 <div className="flex -space-x-2">
-                  <div className="w-10 h-10 bg-gradient-to-br from-emerald-500 to-green-500 rounded-full border-2 border-white dark:border-gray-800"></div>
-                  <div className="w-10 h-10 bg-gradient-to-br from-green-500 to-teal-500 rounded-full border-2 border-white dark:border-gray-800"></div>
-                  <div className="w-10 h-10 bg-gradient-to-br from-teal-500 to-emerald-500 rounded-full border-2 border-white dark:border-gray-800"></div>
+                  <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-sky-500 rounded-full border-2 border-white dark:border-gray-800"></div>
+                  <div className="w-10 h-10 bg-gradient-to-br from-sky-500 to-cyan-500 rounded-full border-2 border-white dark:border-gray-800"></div>
+                  <div className="w-10 h-10 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-full border-2 border-white dark:border-gray-800"></div>
                 </div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">
                   <div className="font-semibold">Trusted by 10,000+ users</div>
@@ -210,28 +210,28 @@ const AboutPage = () => {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-emerald-50 to-green-50 dark:from-emerald-900/20 dark:to-green-900/20 p-8 rounded-2xl border border-emerald-100 dark:border-emerald-800/50">
+            <div className="bg-gradient-to-br from-blue-50 to-sky-50 dark:from-blue-900/20 dark:to-sky-900/20 p-8 rounded-2xl border border-blue-100 dark:border-blue-800/50">
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
-                  <div className="w-3 h-3 bg-emerald-500 dark:bg-emerald-400 rounded-full"></div>
+                  <div className="w-3 h-3 bg-blue-500 dark:bg-blue-400 rounded-full"></div>
                   <div className="text-gray-900 dark:text-gray-100 font-medium">
                     Founded in 2024
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
-                  <div className="w-3 h-3 bg-green-500 dark:bg-green-400 rounded-full"></div>
+                  <div className="w-3 h-3 bg-sky-500 dark:bg-sky-400 rounded-full"></div>
                   <div className="text-gray-900 dark:text-gray-100 font-medium">
                     AI-First Approach
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
-                  <div className="w-3 h-3 bg-teal-500 dark:bg-teal-400 rounded-full"></div>
+                  <div className="w-3 h-3 bg-cyan-500 dark:bg-cyan-400 rounded-full"></div>
                   <div className="text-gray-900 dark:text-gray-100 font-medium">
                     Global Impact
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
-                  <div className="w-3 h-3 bg-emerald-500 dark:bg-emerald-400 rounded-full"></div>
+                  <div className="w-3 h-3 bg-blue-500 dark:bg-blue-400 rounded-full"></div>
                   <div className="text-gray-900 dark:text-gray-100 font-medium">
                     User-Centric Design
                   </div>
@@ -243,19 +243,19 @@ const AboutPage = () => {
       </section>
 
       {/* Call to Action Section */}
-      <section className="py-20 px-8 bg-gradient-to-br from-gray-50 via-white to-emerald-50 dark:from-gray-900 dark:via-gray-800 dark:to-emerald-900/20 relative overflow-hidden">
+      <section className="py-20 px-8 bg-gradient-to-br from-gray-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-blue-900/20 relative overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern opacity-5 dark:opacity-10"></div>
-        <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-500 via-green-500 to-teal-500"></div>
+        <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 via-sky-500 to-cyan-500"></div>
 
         <div className="max-w-4xl mx-auto text-center relative z-10">
-          <div className="inline-flex items-center gap-2 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 px-4 py-2 rounded-full text-sm font-medium mb-6 shadow-lg">
-            <span className="w-2 h-2 bg-emerald-500 dark:bg-emerald-400 rounded-full animate-pulse"></span>
+          <div className="inline-flex items-center gap-2 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 px-4 py-2 rounded-full text-sm font-medium mb-6 shadow-lg">
+            <span className="w-2 h-2 bg-blue-500 dark:bg-blue-400 rounded-full animate-pulse"></span>
             Ready to Transform Your Finances?
           </div>
 
           <h2 className="text-4xl md:text-6xl font-bold mb-6 leading-tight text-gray-900 dark:text-gray-100">
             Take Control of Your{" "}
-            <span className="bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-600 via-sky-500 to-cyan-500 bg-clip-text text-transparent">
               Financial Future
             </span>
           </h2>
@@ -269,7 +269,7 @@ const AboutPage = () => {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <Link
               href="/sign-up"
-              className="group relative overflow-hidden bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 hover:from-emerald-700 hover:via-green-600 hover:to-teal-600 text-white px-8 py-4 rounded-2xl font-bold shadow-2xl hover:shadow-3xl transition-all duration-200 transform hover:-translate-y-0.5"
+              className="group relative overflow-hidden bg-gradient-to-r from-blue-600 via-sky-500 to-cyan-500 hover:from-blue-700 hover:via-sky-600 hover:to-cyan-600 text-white px-8 py-4 rounded-2xl font-bold shadow-2xl hover:shadow-3xl transition-all duration-200 transform hover:-translate-y-0.5"
             >
               <span className="relative z-10 flex items-center gap-2">
                 Get Started Free
@@ -280,7 +280,7 @@ const AboutPage = () => {
 
             <Link
               href="/contact"
-              className="group border-2 border-emerald-500/20 dark:border-emerald-400/20 text-emerald-600 dark:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-900/20 px-8 py-4 rounded-2xl font-semibold transition-all duration-200 backdrop-blur-sm flex items-center gap-2"
+              className="group border-2 border-blue-500/20 dark:border-blue-400/20 text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 px-8 py-4 rounded-2xl font-semibold transition-all duration-200 backdrop-blur-sm flex items-center gap-2"
             >
               Contact Us
               <span className="text-lg group-hover:translate-x-0.5 transition-transform duration-200">
@@ -291,7 +291,7 @@ const AboutPage = () => {
 
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="text-3xl font-bold text-emerald-600 dark:text-emerald-400 mb-2">
+              <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">
                 Free
               </div>
               <div className="text-gray-600 dark:text-gray-400">
@@ -299,7 +299,7 @@ const AboutPage = () => {
               </div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">
+              <div className="text-3xl font-bold text-sky-600 dark:text-sky-400 mb-2">
                 24/7
               </div>
               <div className="text-gray-600 dark:text-gray-400">
@@ -307,7 +307,7 @@ const AboutPage = () => {
               </div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-teal-600 dark:text-teal-400 mb-2">
+              <div className="text-3xl font-bold text-cyan-600 dark:text-cyan-400 mb-2">
                 Instant
               </div>
               <div className="text-gray-600 dark:text-gray-400">

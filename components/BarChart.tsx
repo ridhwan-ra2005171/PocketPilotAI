@@ -118,7 +118,7 @@ const BarChart = ({ records }: { records: Record[] }) => {
     return {
       bg: isDark ? 'rgba(75, 192, 192, 0.3)' : 'rgba(75, 192, 192, 0.2)',
       border: isDark ? 'rgba(75, 192, 192, 0.8)' : 'rgba(75, 192, 192, 1)',
-    }; // Green for low spending
+    }; // sky for low spending
   };
 
   // Prepare data for the chart
