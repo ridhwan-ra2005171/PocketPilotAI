@@ -1,6 +1,5 @@
 # 🚀 PocketPilot AI
 
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/ridhwan-ra2005171/PocketPilotAI)
 
 **PocketPilot AI** is an AI-powered expense tracking application built with Next.js, designed to help you monitor spending, categorize expenses automatically, and gain intelligent financial insights to improve your habits.
 
